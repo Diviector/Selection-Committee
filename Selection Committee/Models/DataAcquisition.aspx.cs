@@ -11,7 +11,7 @@ namespace Selection_Committee.Models
 {
     public partial class DataAcquisition : System.Web.UI.Page
     {
-        string connectionString = @"Server=localhost;Database=data_of_enrollee;Uid=root;Pwd=123;";
+        string connectionString = @"Server=localhost;Database=data_of_enrollee;Uid=XD0;Pwd=8Q}McX0gIdtP2c{8;";
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Page.IsPostBack)
