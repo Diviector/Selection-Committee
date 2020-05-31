@@ -11,7 +11,7 @@
     <form id="form1" runat="server">
         <div>
 
-            <asp:Image ID="StartImage" runat="server" Height="200px" ImageUrl="~/App_Images/StartImage.png" />
+            <asp:Image ID="StartImage" runat="server" Height="200px" ImageUrl="~/App_Images/LogoImage.png" />
             <asp:Label ID="Label_SelComm" runat="server" Text="Приемная коммиссия"></asp:Label>
             <br />
             <asp:LinkButton ID="LinkButton_Agreement" runat="server" OnClick="LinkButton_Agreement_Click">Соглашение</asp:LinkButton>
