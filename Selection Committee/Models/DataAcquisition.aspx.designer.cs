@@ -33,15 +33,6 @@ namespace Selection_Committee.Models
         protected global::System.Web.UI.WebControls.Label Label_ErrorOrSuccessMessage;
 
         /// <summary>
-        /// HiddenField_ID элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически создаваемое поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HiddenField HiddenField_ID;
-
-        /// <summary>
         /// Label_UploadStatus элемент управления.
         /// </summary>
         /// <remarks>
@@ -49,15 +40,6 @@ namespace Selection_Committee.Models
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label_UploadStatus;
-
-        /// <summary>
-        /// Label_DateString элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически создаваемое поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label_DateString;
 
         /// <summary>
         /// MultiView элемент управления.

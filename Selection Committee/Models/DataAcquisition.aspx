@@ -14,9 +14,7 @@
                 <asp:DropDownList ID="DropDownList" runat="server" OnSelectedIndexChanged="DropDownList_SelectedIndexChanged" AppendDataBoundItems="True" AutoPostBack="True">
                 </asp:DropDownList>
                 <asp:Label ID="Label_ErrorOrSuccessMessage" runat="server"></asp:Label>
-                <asp:HiddenField ID="HiddenField_ID" runat="server" />
                 <asp:Label ID="Label_UploadStatus" runat="server"></asp:Label>
-                <asp:Label ID="Label_DateString" runat="server"></asp:Label>
             </p>
                 <asp:MultiView ID="MultiView" runat="server">
                     <asp:View ID="Основное" runat="server">

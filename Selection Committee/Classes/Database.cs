@@ -8,7 +8,7 @@ namespace Selection_Committee
 {
     public class Database
     {
-        private MySqlConnection connection = new MySqlConnection("Server=localhost;Database=data_of_enrollee;Uid=XD0;Pwd=8Q}McX0gIdtP2c{8;");
+        private MySqlConnection connection = new MySqlConnection("Server=localhost;Database=data_of_enrollee;Uid=root;Pwd=root;");
 
         public void OpenConnection()
         {
