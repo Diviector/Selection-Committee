@@ -11,8 +11,17 @@ namespace Selection_Committee.Models
 {
 
 
-    public partial class DataAcquisition
+    public partial class DataAcquisitionEdu
     {
+
+        /// <summary>
+        /// form1 элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
         /// DropDownList элемент управления.
@@ -42,264 +51,201 @@ namespace Selection_Committee.Models
         protected global::System.Web.UI.WebControls.Label Label_UploadStatus;
 
         /// <summary>
-        /// MultiView элемент управления.
+        /// Label_EduLevel элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.MultiView MultiView;
+        protected global::System.Web.UI.WebControls.Label Label_EduLevel;
 
         /// <summary>
-        /// Основное элемент управления.
+        /// RadioButtonList_EduLevel элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.View Основное;
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList_EduLevel;
 
         /// <summary>
-        /// Label_Family элемент управления.
+        /// Label_EduInst элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label_Family;
+        protected global::System.Web.UI.WebControls.Label Label_EduInst;
 
         /// <summary>
-        /// TextBox_Lastname элемент управления.
+        /// RadioButtonList1 элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_Lastname;
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
 
         /// <summary>
-        /// Label_KindOfDocument элемент управления.
+        /// Label_NameOfEduInst элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label_KindOfDocument;
+        protected global::System.Web.UI.WebControls.Label Label_NameOfEduInst;
 
         /// <summary>
-        /// TextBox_KindOfDocument элемент управления.
+        /// TextBox_NameOfEduInst элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_KindOfDocument;
+        protected global::System.Web.UI.WebControls.TextBox TextBox_NameOfEduInst;
 
         /// <summary>
-        /// Label_Firstname элемент управления.
+        /// Label_YearOfGrad элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label_Firstname;
+        protected global::System.Web.UI.WebControls.Label Label_YearOfGrad;
 
         /// <summary>
-        /// TextBox_Firstnane элемент управления.
+        /// ListBox_YearOfGrad элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_Firstnane;
+        protected global::System.Web.UI.WebControls.ListBox ListBox_YearOfGrad;
 
         /// <summary>
-        /// Label_Сitizenship элемент управления.
+        /// CheckBoxList_KindOfDoc элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label_Сitizenship;
+        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxList_KindOfDoc;
 
         /// <summary>
-        /// TextBox_Сitizenship элемент управления.
+        /// Label_MiddleMark элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_Сitizenship;
+        protected global::System.Web.UI.WebControls.Label Label_MiddleMark;
 
         /// <summary>
-        /// Label_Patronymic элемент управления.
+        /// CheckBox1 элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label_Patronymic;
+        protected global::System.Web.UI.WebControls.CheckBox CheckBox1;
 
         /// <summary>
-        /// TextBox_Patronymic элемент управления.
+        /// TextBox_MiddleMark элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_Patronymic;
+        protected global::System.Web.UI.WebControls.TextBox TextBox_MiddleMark;
 
         /// <summary>
-        /// Label_RegistrationAddress элемент управления.
+        /// Label_5 элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label_RegistrationAddress;
+        protected global::System.Web.UI.WebControls.Label Label_5;
 
         /// <summary>
-        /// TextBox_RegistrationAddress элемент управления.
+        /// TextBox_5 элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_RegistrationAddress;
+        protected global::System.Web.UI.WebControls.TextBox TextBox_5;
 
         /// <summary>
-        /// Label_DateOfBirth элемент управления.
+        /// Label_4 элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label_DateOfBirth;
+        protected global::System.Web.UI.WebControls.Label Label_4;
 
         /// <summary>
-        /// TextBox_DateOfBirth элемент управления.
+        /// TextBox_4 элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_DateOfBirth;
+        protected global::System.Web.UI.WebControls.TextBox TextBox_4;
 
         /// <summary>
-        /// Label_ResidentialAddress элемент управления.
+        /// Label_3 элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label_ResidentialAddress;
+        protected global::System.Web.UI.WebControls.Label Label_3;
 
         /// <summary>
-        /// TextBox_ResidentialAddress элемент управления.
+        /// TextBox_3 элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_ResidentialAddress;
+        protected global::System.Web.UI.WebControls.TextBox TextBox_3;
 
         /// <summary>
-        /// Label_Gender элемент управления.
+        /// Button_Calc элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label_Gender;
+        protected global::System.Web.UI.WebControls.Button Button_Calc;
 
         /// <summary>
-        /// RadioButtonList_Gender элемент управления.
+        /// Label_GoingTo элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList_Gender;
+        protected global::System.Web.UI.WebControls.Label Label_GoingTo;
 
         /// <summary>
-        /// Label_DateOfFillingIn элемент управления.
+        /// CheckBoxList_GoingTo элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label_DateOfFillingIn;
+        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxList_GoingTo;
 
         /// <summary>
-        /// TextBox_DateOfFillingIn элемент управления.
+        /// Button_EduSave элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_DateOfFillingIn;
-
-        /// <summary>
-        /// Label_Photo элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически создаваемое поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label_Photo;
-
-        /// <summary>
-        /// FileUpload_FacePhoto элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически создаваемое поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload FileUpload_FacePhoto;
-
-        /// <summary>
-        /// Button_BasicSave элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически создаваемое поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button_BasicSave;
-
-        /// <summary>
-        /// Образование элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически создаваемое поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.View Образование;
-
-        /// <summary>
-        /// Семья элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически создаваемое поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.View Семья;
-
-        /// <summary>
-        /// Документы элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически создаваемое поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.View Документы;
-
-        /// <summary>
-        /// Дистижения элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически создаваемое поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.View Дистижения;
+        protected global::System.Web.UI.WebControls.Button Button_EduSave;
     }
 }

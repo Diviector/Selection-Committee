@@ -21,7 +21,7 @@ namespace Selection_Committee
             if (checkThePassword())
             {
                 Classes.User.setUsername(TextBox_Username.Text.Trim());
-                Response.Redirect("DataAcquisition.aspx");
+                Response.Redirect("DataAcquisitionBasic.aspx");
             }
             else
             {

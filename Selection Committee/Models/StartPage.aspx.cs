@@ -31,7 +31,7 @@ namespace Selection_Committee.Models
 
         protected void Button_Further_Click(object sender, EventArgs e)
         {
-            Response.Redirect("DataAcquisition.aspx");
+            Response.Redirect("DataAcquisitionBasic.aspx");
         }
     }
 }

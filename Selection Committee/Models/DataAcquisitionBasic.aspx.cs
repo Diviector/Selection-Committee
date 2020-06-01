@@ -16,19 +16,13 @@ namespace Selection_Committee.Models
         {
             if (!Page.IsPostBack)
             {
-                DropDownList.DataSource = MultiView.Views;
-                DropDownList.DataTextField = "ID";
-                DropDownList.DataBind();
-
-                MultiView.ActiveViewIndex = DropDownList.SelectedIndex;
-
                 Clear();
             }
         }
 
         protected void DropDownList_SelectedIndexChanged(object sender, EventArgs e)
         {
-            MultiView.ActiveViewIndex = DropDownList.SelectedIndex;
+            Response.Redirect(DropDownList.SelectedValue);
         }
 
         protected void Button_BasicSave_Click(object sender, EventArgs e)

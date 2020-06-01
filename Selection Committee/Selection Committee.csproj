@@ -73,7 +73,11 @@
   <ItemGroup>
     <Content Include="App_Images\LogoImage.png" />
     <Content Include="Global.asax" />
-    <Content Include="Models\DataAcquisition.aspx" />
+    <Content Include="Models\DataAcquisitionAchievements.aspx" />
+    <Content Include="Models\DataAcquisitionBasic.aspx" />
+    <Content Include="Models\DataAcquisitionDoc.aspx" />
+    <Content Include="Models\DataAcquisitionEdu.aspx" />
+    <Content Include="Models\DataAcquisitionFamily.aspx" />
     <Content Include="Models\StartPage.aspx" />
     <Content Include="Models\SignIn.aspx" />
     <Content Include="Web.config" />
@@ -84,12 +88,40 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\DataAcquisition.aspx.cs">
-      <DependentUpon>DataAcquisition.aspx</DependentUpon>
+    <Compile Include="Models\DataAcquisitionAchievements.aspx.cs">
+      <DependentUpon>DataAcquisitionAchievements.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Models\DataAcquisition.aspx.designer.cs">
-      <DependentUpon>DataAcquisition.aspx</DependentUpon>
+    <Compile Include="Models\DataAcquisitionAchievements.aspx.designer.cs">
+      <DependentUpon>DataAcquisitionAchievements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DataAcquisitionBasic.aspx.cs">
+      <DependentUpon>DataAcquisitionBasic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Models\DataAcquisitionBasic.aspx.designer.cs">
+      <DependentUpon>DataAcquisitionBasic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DataAcquisitionDoc.aspx.cs">
+      <DependentUpon>DataAcquisitionDoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Models\DataAcquisitionDoc.aspx.designer.cs">
+      <DependentUpon>DataAcquisitionDoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DataAcquisitionEdu.aspx.cs">
+      <DependentUpon>DataAcquisitionEdu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Models\DataAcquisitionEdu.aspx.designer.cs">
+      <DependentUpon>DataAcquisitionEdu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DataAcquisitionFamily.aspx.cs">
+      <DependentUpon>DataAcquisitionFamily.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Models\DataAcquisitionFamily.aspx.designer.cs">
+      <DependentUpon>DataAcquisitionFamily.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\StartPage.aspx.cs">
       <DependentUpon>StartPage.aspx</DependentUpon>

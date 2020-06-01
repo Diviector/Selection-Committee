@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DataAcquisition.aspx.cs" Inherits="Selection_Committee.Models.DataAcquisition" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DataAcquisitionBasic.aspx.cs" Inherits="Selection_Committee.Models.DataAcquisition" %>
 
 <!DOCTYPE html>
 
@@ -12,12 +12,16 @@
         <div>
             <p>
                 <asp:DropDownList ID="DropDownList" runat="server" OnSelectedIndexChanged="DropDownList_SelectedIndexChanged" AppendDataBoundItems="True" AutoPostBack="True">
+                    <asp:ListItem Value="DataAcquisitionBasic.aspx">Основное</asp:ListItem>
+                    <asp:ListItem Value="DataAcquisitionEdu.aspx">Образованние</asp:ListItem>
+                    <asp:ListItem Value="DataAcquisitionFamily.aspx">Семья</asp:ListItem>
+                    <asp:ListItem Value="DataAcquisitionDoc.aspx">Документы</asp:ListItem>
+                    <asp:ListItem Value="DataAcquisitionAchievements.aspx">Достижения</asp:ListItem>
                 </asp:DropDownList>
                 <asp:Label ID="Label_ErrorOrSuccessMessage" runat="server"></asp:Label>
                 <asp:Label ID="Label_UploadStatus" runat="server"></asp:Label>
             </p>
-                <asp:MultiView ID="MultiView" runat="server">
-                    <asp:View ID="Основное" runat="server">
+        </div>
                         <table style="width:50%;">
                             <tr>
                                 <td>
@@ -89,22 +93,6 @@
                         <br />
                         <br />
                         <asp:Button ID="Button_BasicSave" runat="server" Text="Сохранить данные" OnClick="Button_BasicSave_Click" />
-                        <br />
-                    </asp:View>
-                    <asp:View ID="Образование" runat="server">
-                        <br />
-                    </asp:View>
-                    <asp:View ID="Семья" runat="server">
-                        <br />
-                    </asp:View>
-                    <asp:View ID="Документы" runat="server">
-                        <br />
-                    </asp:View>
-                    <asp:View ID="Дистижения" runat="server">
-                        <br />
-                    </asp:View>
-                </asp:MultiView>
-        </div>
     </form>
 </body>
 </html>
