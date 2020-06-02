@@ -19,8 +19,8 @@ namespace Selection_Committee.Models
             //Пользователь скачивает файл соглашения
             Response.Clear();
             Response.ContentType = "application/msword";
-            Response.AddHeader("content-disposition", "attachment; filename=Agreement.docx");
-            Response.TransmitFile(Server.MapPath("~/App_Data/Agreement.docx"));
+            Response.AddHeader("content-disposition", "attachment; filename=Agreement.doc");
+            Response.TransmitFile(Server.MapPath("~/App_Data/Agreement.doc"));
             Response.End();
         }
 
@@ -31,6 +31,7 @@ namespace Selection_Committee.Models
 
         protected void Button_Further_Click(object sender, EventArgs e)
         {
+            Classes.User.setAgreementTrue();
             Response.Redirect("DataAcquisitionBasic.aspx");
         }
     }

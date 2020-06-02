@@ -140,7 +140,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Agreement.docx" />
+    <None Include="App_Data\Agreement.doc" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -150,6 +150,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Data_Of_Enrollee\Diplomas\" />
+    <Folder Include="Data_Of_Enrollee\Documents\" />
     <Folder Include="Data_Of_Enrollee\Face_Photos\" />
   </ItemGroup>
   <PropertyGroup>

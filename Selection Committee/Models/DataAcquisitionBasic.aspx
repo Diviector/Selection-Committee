@@ -27,7 +27,7 @@
                                 <td>
                                     <asp:Label ID="Label_Family" runat="server" Text="Фамилия"></asp:Label>
                                     <br />
-                                    <asp:TextBox ID="TextBox_Lastname" runat="server"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox_Secondname" runat="server"></asp:TextBox>
                                 </td>
                                 <td>
                                     <asp:Label ID="Label_KindOfDocument" runat="server" Text="Вид документа"></asp:Label>

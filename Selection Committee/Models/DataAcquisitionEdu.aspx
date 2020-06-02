@@ -32,7 +32,7 @@
         </asp:RadioButtonList>
         <br />
         <asp:Label ID="Label_EduInst" runat="server" Text="Учебное заведение, которое окончили"></asp:Label>
-        <asp:RadioButtonList ID="RadioButtonList1" runat="server">
+        <asp:RadioButtonList ID="RadioButtonList_Inst" runat="server">
             <asp:ListItem>Школа</asp:ListItem>
             <asp:ListItem>Колледж</asp:ListItem>
             <asp:ListItem>Техникум</asp:ListItem>
@@ -52,10 +52,10 @@
             <tr>
                 <td>
 
-                    <asp:CheckBoxList ID="CheckBoxList_KindOfDoc" runat="server">
-                        <asp:ListItem>Атестат</asp:ListItem>
+                    <asp:RadioButtonList ID="RadioButtonList_Doc" runat="server">
+                        <asp:ListItem>Атетстат</asp:ListItem>
                         <asp:ListItem>Диплом</asp:ListItem>
-                    </asp:CheckBoxList>
+                    </asp:RadioButtonList>
 
                 </td>
                 <td>
@@ -89,17 +89,17 @@
                     <asp:Label ID="Label_3" runat="server" Text="Кол-во 3" Visible="False"></asp:Label>
                     <asp:TextBox ID="TextBox_3" runat="server" Visible="False"></asp:TextBox>
                     <br />
-                    <asp:Button ID="Button_Calc" runat="server" Text="Рассчитать" Visible="False" />
+                    <asp:Button ID="Button_Calc" runat="server" Text="Рассчитать" Visible="False" OnClick="Button_Calc_Click" />
 
                 </td>
             </tr>
         </table>
                         <br />
         <asp:Label ID="Label_GoingTo" runat="server" Text="Поступаете на"></asp:Label>
-        <asp:CheckBoxList ID="CheckBoxList_GoingTo" runat="server">
+        <asp:RadioButtonList ID="RadioButtonList_Form" runat="server">
             <asp:ListItem Value="Очная">Очную форму обучения</asp:ListItem>
             <asp:ListItem Value="Заочная">Заочную форму обучения</asp:ListItem>
-        </asp:CheckBoxList>
+        </asp:RadioButtonList>
         <br />
                         <asp:Button ID="Button_EduSave" runat="server" Text="Сохранить данные" OnClick="Button_EduSave_Click"/>
         <div>

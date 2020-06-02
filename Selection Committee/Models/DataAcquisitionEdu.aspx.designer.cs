@@ -78,13 +78,13 @@ namespace Selection_Committee.Models
         protected global::System.Web.UI.WebControls.Label Label_EduInst;
 
         /// <summary>
-        /// RadioButtonList1 элемент управления.
+        /// RadioButtonList_Inst элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList_Inst;
 
         /// <summary>
         /// Label_NameOfEduInst элемент управления.
@@ -123,13 +123,13 @@ namespace Selection_Committee.Models
         protected global::System.Web.UI.WebControls.ListBox ListBox_YearOfGrad;
 
         /// <summary>
-        /// CheckBoxList_KindOfDoc элемент управления.
+        /// RadioButtonList_Doc элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxList_KindOfDoc;
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList_Doc;
 
         /// <summary>
         /// Label_MiddleMark элемент управления.
@@ -231,13 +231,13 @@ namespace Selection_Committee.Models
         protected global::System.Web.UI.WebControls.Label Label_GoingTo;
 
         /// <summary>
-        /// CheckBoxList_GoingTo элемент управления.
+        /// RadioButtonList_Form элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxList_GoingTo;
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList_Form;
 
         /// <summary>
         /// Button_EduSave элемент управления.

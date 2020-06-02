@@ -60,13 +60,13 @@ namespace Selection_Committee.Models
         protected global::System.Web.UI.WebControls.Label Label_Family;
 
         /// <summary>
-        /// RadioButtonList1 элемент управления.
+        /// RadioButtonList_Full элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList_Full;
 
         /// <summary>
         /// Label_LegalRepr элемент управления.
@@ -78,13 +78,13 @@ namespace Selection_Committee.Models
         protected global::System.Web.UI.WebControls.Label Label_LegalRepr;
 
         /// <summary>
-        /// RadioButtonList2 элемент управления.
+        /// RadioButtonList_Repr элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList2;
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList_Repr;
 
         /// <summary>
         /// Label_FIOLegalRepr элемент управления.
@@ -96,13 +96,58 @@ namespace Selection_Committee.Models
         protected global::System.Web.UI.WebControls.Label Label_FIOLegalRepr;
 
         /// <summary>
-        /// TextBox_FIOLegalRepr элемент управления.
+        /// Label_SecondName элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_FIOLegalRepr;
+        protected global::System.Web.UI.WebControls.Label Label_SecondName;
+
+        /// <summary>
+        /// Label_FirstName элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label_FirstName;
+
+        /// <summary>
+        /// Label_Patronymic элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label_Patronymic;
+
+        /// <summary>
+        /// TextBox_SecondName элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox_SecondName;
+
+        /// <summary>
+        /// TextBox_FirstName элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox_FirstName;
+
+        /// <summary>
+        /// TextBox_Patronymic элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox_Patronymic;
 
         /// <summary>
         /// Label_Phone элемент управления.

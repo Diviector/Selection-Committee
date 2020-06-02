@@ -21,14 +21,22 @@ namespace Selection_Committee
             if (checkThePassword())
             {
                 Classes.User.setUsername(TextBox_Username.Text.Trim());
-                Response.Redirect("DataAcquisitionBasic.aspx");
+
+                if (Classes.User.agreement)
+                {
+                    Response.Redirect("DataAcquisitionBasic.aspx");
+                }
+                else
+                {
+                    Response.Redirect("StartPage.aspx");
+                }
             }
             else
             {
                 Label_ErroLine.Text = "Неверный логин или пароль.";
             }
 
-        }
+        }        
 
         protected void Button_Registration_Click(object sender, EventArgs e)
         {

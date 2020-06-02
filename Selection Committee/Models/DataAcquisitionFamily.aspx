@@ -23,7 +23,7 @@
             </p>
         </div>
         <asp:Label ID="Label_Family" runat="server" Text="Семья"></asp:Label>
-        <asp:RadioButtonList ID="RadioButtonList1" runat="server">
+        <asp:RadioButtonList ID="RadioButtonList_Full" runat="server">
             <asp:ListItem>Полная</asp:ListItem>
             <asp:ListItem>Неполная</asp:ListItem>
         </asp:RadioButtonList>
@@ -37,7 +37,7 @@
                 </td>
                 <td>
 
-                    <asp:RadioButtonList ID="RadioButtonList2" runat="server">
+                    <asp:RadioButtonList ID="RadioButtonList_Repr" runat="server">
                         <asp:ListItem>Мать</asp:ListItem>
                         <asp:ListItem>Отец</asp:ListItem>
                         <asp:ListItem>Опекун</asp:ListItem>
@@ -52,7 +52,17 @@
                 </td>
                 <td>
 
-                    <asp:TextBox ID="TextBox_FIOLegalRepr" runat="server"></asp:TextBox>
+                    <asp:Label ID="Label_SecondName" runat="server" Text="Фамилия"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="Label_FirstName" runat="server" Text="Имя"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="Label_Patronymic" runat="server" Text="Отчество"></asp:Label>
+                    <br />
+                    <asp:TextBox ID="TextBox_SecondName" runat="server"></asp:TextBox>
+
+                    <asp:TextBox ID="TextBox_FirstName" runat="server"></asp:TextBox>
+
+                    <asp:TextBox ID="TextBox_Patronymic" runat="server"></asp:TextBox>
 
                 </td>
             </tr>
@@ -62,6 +72,7 @@
         <br />
         <br />
         <asp:Button ID="Button_FamilySave" runat="server" Text="Сохранить данные" OnClick="Button_FamilySave_Click" />
+        <br />
         <div>
         </div>
     </form>

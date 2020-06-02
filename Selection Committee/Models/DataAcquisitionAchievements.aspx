@@ -24,15 +24,15 @@
         </div>
         <asp:Label ID="Label_Achievement" runat="server" Text="Расскажите о себе (личные достижения, хобби)"></asp:Label>
         <br />
-        <asp:TextBox ID="TextBox_Achievements" runat="server" Height="115px" Width="445px"></asp:TextBox>
+        <asp:TextBox ID="TextBox_Achievements" runat="server" Height="115px" Width="445px" TextMode="MultiLine"></asp:TextBox>
         <br />
         <br />
                         <asp:Label ID="Label_Diplomas" runat="server" Text="Прикрепите сканы грамот"></asp:Label>
                         <br />
-                        <asp:FileUpload ID="FileUpload_Diplomas" runat="server" AllowMultiple="True" />
+                        <asp:FileUpload ID="FileUpload_Diplomas" runat="server" />
                         <br />
                         <br />
-                        <asp:Button ID="Button_AchievementSave" runat="server" Text="Сохранить данные" />
+                        <asp:Button ID="Button_AchievementSave" runat="server" Text="Сохранить данные" OnClick="Button_AchievementSave_Click" />
         <div>
         </div>
     </form>

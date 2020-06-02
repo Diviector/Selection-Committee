@@ -51,13 +51,13 @@ namespace Selection_Committee.Models
         protected global::System.Web.UI.WebControls.Label Label_Family;
 
         /// <summary>
-        /// TextBox_Lastname элемент управления.
+        /// TextBox_Secondname элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_Lastname;
+        protected global::System.Web.UI.WebControls.TextBox TextBox_Secondname;
 
         /// <summary>
         /// Label_KindOfDocument элемент управления.

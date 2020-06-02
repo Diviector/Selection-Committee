@@ -12,6 +12,9 @@
         <div>
             <asp:Image ID="Image1" runat="server" Height="250px" ImageUrl="~/App_Images/LogoImage.png" />
             <br />
+            <asp:Label ID="Label" runat="server" Text="Приемная комиссия"></asp:Label>
+            <br />
+            <br />
             <table>
                 <tr>
                     <td>
